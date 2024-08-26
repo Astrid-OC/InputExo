@@ -1,0 +1,10 @@
+button 
+{
+    background-color: black;
+    border-radius: 5px;
+    border-color: azure;
+    color: white;
+    padding: 5px;
+    display: flex;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,17 @@
+.liste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+h1
+{
+   display: flex;
+   justify-content: center;
+}
+.articleT
+{
+    padding: 5px;
+}
+
+

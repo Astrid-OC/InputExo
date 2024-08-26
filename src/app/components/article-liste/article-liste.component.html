@@ -1,0 +1,15 @@
+<h1> Liste des Articles :</h1>
+<div class="liste"> 
+    <div class="articleT">
+        @for (article of articles; track $index) 
+        {
+            <p>{{article.title}}</p>
+        }
+    </div>
+    <div class="afficherB">
+        @for (item of articles; track $index) 
+        {
+            <app-article-items [content]="item.content" [Btilte]="item.title"></app-article-items>
+        }
+    </div>
+</div>
